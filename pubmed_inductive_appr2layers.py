@@ -22,7 +22,7 @@ flags = tf.app.flags
 FLAGS = flags.FLAGS
 flags.DEFINE_string('dataset', '20ng', 'Dataset string.')  # 'cora', 'citeseer', 'pubmed'
 flags.DEFINE_string('model', 'gcn_appr', 'Model string.')  # 'gcn', 'gcn_appr'
-flags.DEFINE_float('learning_rate', 0.01, 'Initial learning rate.')
+flags.DEFINE_float('learning_rate', 0.005, 'Initial learning rate.')
 flags.DEFINE_integer('epochs', 200, 'Number of epochs to train.')
 flags.DEFINE_integer('hidden1', 200, 'Number of units in hidden layer 1.')
 flags.DEFINE_float('dropout', 0.0, 'Dropout rate (1 - keep probability).')
