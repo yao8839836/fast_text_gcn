@@ -177,7 +177,7 @@ def main(rank1, rank0):
 
 if __name__=="__main__":
     print("DATASET:", FLAGS.dataset)
-    for k in [300]:
+    for k in [400]:
         main(k, k)
 
     # main(50,50)
